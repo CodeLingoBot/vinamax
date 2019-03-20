@@ -63,7 +63,7 @@ func (p particle) string() string {
 	return fmt.Sprintf("particle@(%v, %v, %v), %v %v %v", p.x, p.y, p.z, p.m[0], p.m[1], p.m[2])
 }
 
-//returns the magnetization of the particle
+//Mag returns the magnetization of the particle
 func (p particle) Mag() vector {
 return p.m
 }

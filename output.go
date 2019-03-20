@@ -283,7 +283,7 @@ func writeheader() {
 //	fmt.Println("A good timestep would be: ", Dt*math.Pow(shouldbemaxerror/currentmaxerror, 1/float64(order)))
 //}
 
-//Adds the field at a specific location to the output table
+//Tableadd_b_at_location adds the field at a specific location to the output table
 func Tableadd_b_at_location(x, y, z float64) {
 	tableaddcalled = true
 	if outputinterval != 0 {
@@ -456,7 +456,7 @@ func Save(a string) {
 	}
 }
 
-//adds a quantity to the output table, at the moment only "B_ext" is possible
+//Tableadd adds a quantity to the output table, at the moment only "B_ext" is possible
 func Tableadd(a string) {
 	tableaddcalled = true
 	if outputinterval != 0 {

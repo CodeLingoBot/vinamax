@@ -91,7 +91,7 @@ func (c Cube) Setviscosity(visc float64) {
 
 }
 
-//Adds a number of particles at random locations in a cubic region
+//Addparticles adds a number of particles at random locations in a cubic region
 func (c Cube) Addparticles(n int) {
 	c.n += n
 	for i := 0; i < n; i++ {
@@ -131,7 +131,7 @@ func (c Cuboid) Setviscosity(visc float64) {
 
 }
 
-//Adds a number of particles at random locations in a cubic region
+//Addparticles adds a number of particles at random locations in a cubic region
 func (c Cuboid) Addparticles(n int) {
 
 	c.n += n
